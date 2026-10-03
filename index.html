@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Starfern Games</title>
+<meta name="description" content="Starfern Games makes calm, beautiful mobile games.">
+<link rel="icon" href="orbit-hop-icon.png">
+<style>
+  :root { --bg: #0b0820; --ink: #f4f1ff; --muted: #a69cd6; --accent: #7df9ff; --pink: #ff5edb; --line: rgba(160,140,255,.25); }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: radial-gradient(ellipse at 20% 0%, #2a1258 0%, transparent 55%),
+    radial-gradient(ellipse at 90% 30%, #0f3a5a 0%, transparent 50%), var(--bg); color: var(--ink);
+    font-family: "Trebuchet MS", "Segoe UI", Roboto, system-ui, sans-serif; line-height: 1.6; }
+  main { max-width: 760px; margin: 0 auto; padding: 64px 20px 40px; }
+  h1 { font-size: clamp(40px, 9vw, 64px); margin: 0; letter-spacing: 2px;
+    background: linear-gradient(90deg, var(--accent), #b9a8ff 50%, var(--pink)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .tag { color: var(--muted); font-size: 19px; margin: 6px 0 48px; }
+  .game { display: flex; gap: 22px; align-items: center; padding: 22px; border-radius: 24px; background: rgba(255,255,255,.05); border: 1px solid var(--line); }
+  .game img { width: 112px; height: 112px; border-radius: 26px; flex: none; box-shadow: 0 10px 30px rgba(0,0,0,.4); }
+  .game h2 { margin: 0 0 4px; font-size: 26px; }
+  .game p { margin: 0 0 14px; color: var(--muted); }
+  .btn { display: inline-block; padding: 10px 18px; border-radius: 14px; background: linear-gradient(180deg, #8f7bff, #5a3fe0); color: #fff; text-decoration: none; font-weight: 800; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; gap: 18px; }
+  footer a { color: var(--accent); }
+  @media (max-width: 520px) { .game { flex-direction: column; text-align: center; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Starfern Games</h1>
+  <p class="tag">Calm, beautiful little games for your pocket.</p>
+
+  <section class="game">
+    <img src="orbit-hop-icon.png" alt="Orbit Hop icon">
+    <div>
+      <h2>Orbit Hop</h2>
+      <p>One tap. Endless space. Hop between hand-crafted planets, chain PERFECT landings and explore ten unique stages.</p>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.starferngames.orbithop">Get it on Google Play</a>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Starfern Games</span>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="mailto:starferngames@gmail.com">starferngames@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
